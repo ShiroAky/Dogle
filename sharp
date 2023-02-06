@@ -1,0 +1,7 @@
+<?php
+
+    // Required autoload from composer:
+    require_once __DIR__ . '/vendor/autoload.php';
+
+    // Run the console application:
+    Shiroaky\Dogle\Cli\Cli::bootstrap(__DIR__)::run();

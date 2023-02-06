@@ -1,0 +1,24 @@
+{
+    "name": "shiroaky/dogle",
+    "description": "Dogle is a basic php framework",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shiroaky\\Dogle\\": "app/"
+        }, 
+        "files": []
+    },
+    "authors": [
+        {
+            "name": "ShiroAky",
+            "email": "yourentrycode@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "symfony/console": "^6.2",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
