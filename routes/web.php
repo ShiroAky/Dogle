@@ -5,7 +5,7 @@
     use Shiroaky\Dogle\Core\Render;
 
     // Controllers:
-    use Shiroaky\Dogle\Controllers\MoviesController;
+    use Shiroaky\Dogle\Controllers\HomeController;
 
     // Test:
     use Shiroaky\Dogle\Controllers\TestController;
